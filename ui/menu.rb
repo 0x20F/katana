@@ -1,7 +1,15 @@
 require 'socket'
 
 
-
+# Neat wrapper around rofi for creating
+# menus dynamically from within any of your
+# scripts. This also accounts for multiple 
+# rofi windows that replace each other allowing you
+# to nicely have an initial window with a specific theme
+# that indicates that something is loading.
+#
+# Required tools to use:
+# - rofi
 class Menu
 
   # Set menu to a specific type.
