@@ -3,6 +3,9 @@
 # and screen brightness.
 #
 # - Keyboard backlight is not implemented yet
+#
+# Required tools to use:
+# - light (for screen backlight info)
 module Backlight
   # Increase the brightness level of 
   # the screen

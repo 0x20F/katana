@@ -8,6 +8,11 @@
 # get said data.
 #
 # Includes Audio for both input and output (Mic/Sound)
+#
+# Required tools to use:
+# - amixer (for volume control)
+# - pactl (for sink information)
+# - grep (for some parsing) TODO: Stop using grep
 module Audio
   CHANNEL = 'Master'
 

@@ -1,6 +1,9 @@
 # Wrapper around commands that retrieve
 # and control information about wireless
 # network connections
+#
+# Required tools to use:
+# - nmcli (for network information)
 module Wifi
   
   # Return an array of SSID: UUID pairs of
