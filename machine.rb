@@ -2,6 +2,10 @@
 # status on things that relate to the
 # machine itself, e.g. if the lid of 
 # the laptop is closed or not.
+#
+# Required tools in order to use:
+# - systemctl (for system on/off)
+# - bspwm (for logout)
 module Machine
   # Power off the machine
   #

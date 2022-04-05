@@ -7,7 +7,9 @@ require 'utils'
 use 'notify', 'clipboard'
 
 
-
+# Required tools in order to use:
+# - maim (for screenshots)
+# - yay && checkupdates (for system updates)
 module System
 
   # Take a screenshot of whatever is on screen

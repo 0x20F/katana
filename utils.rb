@@ -1,6 +1,6 @@
 # Aliases for ease of use
 HOME = ENV['HOME']
-KATANA = ENV['katana']
+KATANA = ENV['katana'] # Set this as an environment variable when you load the system
 
 
 
