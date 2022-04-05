@@ -2,7 +2,10 @@ require_relative 'logger'
 require 'json'
 
 
-
+# Logger definition for dunst logs. These are not
+# automatic logs. We create these logs in custom scripts
+# whenever needed. The data structure is just to keep
+# track of them nicely.
 class DunstLogger
   include Logger
 

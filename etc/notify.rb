@@ -3,6 +3,9 @@
 #
 # This greatly simplifies the work a script
 # needs to do just to send out a notification.
+#
+# Required tools to use:
+# - dunstify (for sending notifications directly to the dunst daemon)
 class Notification
   @message_id = 123
   

@@ -1,3 +1,8 @@
+# Use whenever you want to get the logs
+# for something custom that you keep track
+# of within the system.
+#
+# Default implementations include: Dunst at /tmp/dunstlog
 class Logs
   
   # Types:

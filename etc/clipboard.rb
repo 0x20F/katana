@@ -1,3 +1,5 @@
+# Required tools to use:
+# - xclip (for the clipboard itself)
 module Clipboard
   CLIPBOARD = 'xclip -selection clipboard'
 
